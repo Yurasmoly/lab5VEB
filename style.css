@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular') format('woff2'); 
+  font-weight: 400; /* normal */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Bold') format('woff2');
+  font-weight: 700; /* bold */
+  font-style: normal;
+}
+
+/* Стилі для h1 з шрифтом Oswald */
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Стилі для h2 з шрифтом Pacifico */
+h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+  /* Використовуємо Open Sans */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /*  звичайне накреслення */
+}
+
+h4 {
+  /* Використовуємо Merriweather, який ми оголосили вище */
+  font-family: 'Merriweather', serif;
+  font-weight: 700; /* Використовуємо жирне накреслення */
+}
+h5 {
+  /* Скидаємо жирність самого заголовка, 
+     щоб жирним було тільки речення в тезі <b> */
+  font-weight: 400; 
+  
+  /* Встановлюємо розмір шрифту, як у звичайного тексту */
+  font-size: 1rem; 
+  
+  /* Використовуємо шрифт 'Open Sans' */
+  font-family: 'Open Sans', sans-serif;
+  
+  /* Додамо трохи рамок і відступів, щоб візуально виділити блок */
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #dec8c8;
+  line-height: 1.7; /*  міжрядковий інтервал */
+}
+
+/* Стилі для p */
+p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
